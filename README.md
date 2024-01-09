@@ -3,6 +3,10 @@
 
 This project utilizes the [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) library along with Express to create a simple server that allows you to send audio messages on WhatsApp. It uses the [multer](https://github.com/expressjs/multer) middleware for handling file uploads and [qrcode-terminal](https://github.com/gtanner/qrcode-terminal) for displaying the QR code.
 
+## Showcase
+
+[Watch the Video](https://www.youtube.com/watch?v=rvzDz40BHS4)
+
 ## Requirements
 
 - [Node.js](https://nodejs.org/)
