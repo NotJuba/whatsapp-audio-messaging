@@ -1,0 +1,190 @@
+body {
+    background: radial-gradient(circle at 50% 50%, rgba(77, 77, 5, 1) 0%, rgba(10, 5, 10, 1) 55%) no-repeat;
+    background: radial-gradient(circle at 50% 50%, rgba(74, 124, 103, 1) 0%, rgba(0, 0, 0, 1) 68%);
+    background: radial-gradient(circle at 50% 50%, rgba(42, 70, 59, 1) 0%, rgba(0, 0, 0, 1) 68%);
+    height: 100vh;
+    background-color: black;
+}
+
+h1 {
+    color : rgb(198, 198, 198);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+#div1{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    gap : 20px;
+    
+}
+
+#div2{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    
+}
+
+
+#input1{
+    background-color: red;
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+    background: radial-gradient(circle at 50% 50%, rgba(32, 67, 67, 1) 0%, rgba(77, 77, 77, 1) 68%);
+    background: gray;
+    background: black;
+    border: 5px solid ;
+    border-color: rgb(25, 71, 23);
+}
+
+#input1:focus{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+
+
+input::placeholder {
+    text-align: center;
+    color : rgb(113, 113, 113);
+    font-size: large;
+  }
+
+
+
+#input2{
+    background-color: rgb(26, 255, 0);
+    height: 40px;
+    border-radius: 10px;
+    background: radial-gradient(circle at 50% 50%, rgba(93, 116, 187, 1) 0%, rgba(77, 73, 77, 1) 55%);
+    background: radial-gradient(circle at 50% 50%, rgba(32, 67, 67, 1) 0%, rgba(77, 77, 77, 1) 68%);
+}
+
+
+
+/* CSS */
+.button-85 {
+  padding: 1em 6em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+
+    #48ff00,
+    #48ff01,
+    #48ff10,
+    #116f0f,
+    #0b6625,
+    #197c0e,
+    #48ff00,
+    #0e7019,
+    #163705,
+    #053604,
+    #108e0c,
+    #096116
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+/* Hover state */
+.button-85:hover {
+    background: #ccc !important; /* Gray color on hover */
+    color: #95a4f9;
+  }
+  
+  /* Active state */
+  .button-85:active {
+    background: #0088cc !important; /* Blue color on click */
+    color : rgb(45, 128, 20);
+  }
+
+
+#input2:focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+
+
+input[type=file]{
+    height: 50px !important;
+}
+
+input[type=file]::file-selector-button {
+    border: none;
+    background: #084cdf;
+    background: rgb(25, 71, 23); 
+    padding: 17px 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: medium;
+    cursor: pointer;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+  }
+  
+
+input[type="text"] {
+    text-align: center;
+    color: white;
+    font-size: large;
+  }
