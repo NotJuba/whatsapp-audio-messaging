@@ -18,11 +18,11 @@ This project utilizes the [whatsapp-web.js](https://github.com/pedroslopez/whats
 
 ##Install dependencies:
 
-###bash
+### bash
 
     npm install
 
-##Usage
+## Usage
 ```npm start```
 
 The server will be running at http://localhost:3000.
@@ -31,22 +31,22 @@ Scan the QR code displayed in the console using your WhatsApp mobile app to auth
 
 Access the web interface at http://localhost:3000 to send audio messages.
 
-##Configuration
+## Configuration
 
     The server uses a local session file (session.json) to store authentication data. Make sure the application has write permissions for the directory where this file is stored.
 
     Uploaded audio files are saved in the uploads directory.
 
 
-##Dependencies
+## Dependencies
 
     express: Fast, unopinionated, minimalist web framework for Node.js.
     multer: Middleware for handling multipart/form-data.
-    whatsapp-web.js: WhatsApp API library.
+    whatsapp-web.js: WhatsApp API library "kinda".
     qrcode-terminal: QR code generator for the terminal.
 
 
-##License
+## License
 
 This project is licensed under the MIT License.
 
